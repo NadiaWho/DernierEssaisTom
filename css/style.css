@@ -1,0 +1,441 @@
+
+
+
+
+
+
+
+
+
+
+.overlay {
+  position: relative;
+}
+
+
+
+/***********************   NAVBAR   **************************/
+.logo{
+   position: absolute;
+  z-index: 2;
+margin-left: 2rem;
+position: fixed;
+}
+
+
+
+
+#nav {
+  width: 100%;
+  list-style-type: none;
+  padding: 0px;
+  background-color: black;
+  text-align: center; 
+ /* margin-top: 10rem;*/
+  position: absolute; 
+  position: fixed;
+  z-index: 1; 
+  background: rgba(0,0,0,0.6);
+
+}
+
+
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  font-size: 16px;
+}
+
+#nav li {
+  display: inline;
+  display:inline-block;
+  margin: 0 30px;
+  padding: 0px;
+}
+
+li a:hover {
+  text-decoration: none;
+  color: #FF9966;
+}
+
+/*------------- Titre 1 --------*/
+
+video {
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+
+
+#titre2 {
+margin-bottom: 1rem;
+margin-top: 3rem;
+left: 0;
+right: 0;
+color: #000;
+font-size: 50px;
+
+}
+
+h1 {
+font-family: open sans condensed;
+
+}
+
+h2 {
+font-family: open sans condensed;
+}
+
+h3 {
+font-family: open sans condensed;
+
+}
+
+p {
+font-family: open sans condensed;
+font-size: 18px;
+padding-top: 1rem;
+margin: 0rem 1rem;
+}
+
+
+#titre3 {
+  position: absolute;
+margin-bottom: -1rem;
+margin-top: -14rem;
+left: 0;
+right: 0;
+color: #fff;
+font-size: 40px;
+font-weight: bold;
+-webkit-text-stroke: 1px;
+-webkit-text-stroke-color: #000
+
+}
+
+/*#paragraphe1 {
+position : absolute;
+margin: -20rem auto;
+left: 0;
+right: 0;
+color: #fff;
+font-size: 100px;
+-webkit-text-stroke: 1px;
+-webkit-text-stroke-color: #000;
+
+}*/
+/***********************   CARTE INTÉRACTIVE   **************************/
+
+#carte path {
+  fill: #73CBAF;
+  cursor: pointer;
+}
+
+#carte path:hover {
+  fill: #FF9966;
+}
+
+ /* Arrow Button Index
+  -----------------------------------*/
+
+.container-arrow{
+  position: absolute;
+    text-align: center;
+    position: absolute;
+    bottom: 1rem;left:0;
+    width:100%;
+
+   
+  }
+
+    .container-arrow span{  display: inline-block; font-size: 80px;  animation: .7s down  infinite alternate; -webkit-animation: .7s down infinite alternate; }
+    /***Animation Arrow down***/
+    @keyframes down{ 0%{transform:translateY(0px)} 100%{transform:translateY(20px)} }
+    @-webkit-keyframes down{ 0%{-webkit-transform:translateY(0px)} 100%{-webkit-transform:translateY(20px)} } 
+
+ 
+
+ /* Fond
+  -----------------------------------*/
+
+.fond {
+  background-color: white;
+  box-shadow: 1px 1px 10px #555;
+}
+
+
+
+#principalContainer {
+  margin-top: -4rem;}
+
+/*----- Effet 3 premières lettres -----*/
+
+#Aventure {
+position : absolute;
+margin: -38rem auto;
+padding: 0px 30px;
+left: 0;
+right: 0;
+color: #fff;
+font-size: 100px;
+-webkit-text-stroke: 1px;
+-webkit-text-stroke-color: #000;
+
+}
+
+#Immersion {
+position : absolute;
+margin: -31rem auto;
+padding: 0px 30px;
+left: 0;
+right: 0;
+color: #fff;
+font-size: 100px;
+-webkit-text-stroke: 1px;
+-webkit-text-stroke-color: #000;
+
+}
+
+#Paradis {
+position : absolute;
+margin: -24rem auto;
+padding: 0px 30px;
+left: 0;
+right: 0;
+color: #fff;
+font-size: 100px;
+-webkit-text-stroke: 1px;
+-webkit-text-stroke-color: #000;
+
+}
+
+#ameriquedunord {
+position : absolute;
+margin: -31rem auto;
+padding: 0px 30px;
+left: 0;
+right: 0;
+color: #fff;
+font-size: 100px;
+-webkit-text-stroke: 1px;
+-webkit-text-stroke-color: #000;
+
+}
+
+#Aventure
+  {
+    animation: fadein 3s;
+    -moz-animation: fadein 3s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari et Chrome */
+    -o-animation: fadein 3s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* sur Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* sur Safari et Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* sur Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+#Immersion
+  {
+    animation: fadein 3s;
+    -moz-animation: fadein 3s; /* Firefox */
+    -webkit-animation: fadein 6s; /* Safari et Chrome */
+    -o-animation: fadein 3s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* sur Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* sur Safari et Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* sur Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+#Paradis
+  {
+    animation: fadein 3s;
+    -moz-animation: fadein 3s; /* Firefox */
+    -webkit-animation: fadein 10s; /* Safari et Chrome */
+    -o-animation: fadein 3s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* sur Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* sur Safari et Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* sur Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#ameriquedunord
+  {
+    animation: fadein 3s;
+    -moz-animation: fadein 3s; /* Firefox */
+    -webkit-animation: fadein 6s; /* Safari et Chrome */
+    -o-animation: fadein 3s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* sur Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* sur Safari et Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* sur Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#lastParagraphe {
+  padding-bottom: 3rem;
+}
+
+article p{
+font-family: open sans condensed;
+font-size: 18px;
+padding-top: 2rem;
+padding-bottom: 2rem;
+
+}
+
+img {
+list-style-position: center;
+}
+
+
+.imagepaysage {
+margin-top: 2rem;
+margin-left: 1.2rem;
+}
+
+
+.en-cours:after {
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    content: '';
+    display: block;
+    height: 5px;
+    width: 5px;
+    margin: 0 auto;
+    background-color: #FF9966;
+}
+
+.en-cours {
+  color: #FF9966;
+  }
+
+aside {
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
