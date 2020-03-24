@@ -1,18 +1,24 @@
 
+
+
+
+
+
+
+
+
+
 .overlay {
   position: relative;
 }
 
-footer {
-  margin-top: 3rem;
-}
 
 /***********************   NAVBAR   **************************/
 .logo{
    position: absolute;
   z-index: 2;
-  margin-left: 2rem;
-  position: fixed;
+margin-left: 2rem;
+position: fixed;
 }
 
 
@@ -24,6 +30,7 @@ footer {
   padding: 0px;
   background-color: black;
   text-align: center; 
+ /* margin-top: 10rem;*/
   position: absolute; 
   position: fixed;
   z-index: 1; 
@@ -106,6 +113,12 @@ font-family: 'Baloo Chettan 2', cursive;
 h3 {
 font-family: 'Baloo Chettan 2', cursive;
 
+}
+
+h4 {
+font-family: 'Baloo Chettan 2', cursive;
+font-size: 16px;
+color: white;
 }
 
 p {
@@ -466,6 +479,7 @@ margin-left: 1.2rem;
 
 
 .imagesArticles:hover {
+  cursor: zoom-in;
   opacity: 0.8;
 }
 
@@ -474,12 +488,7 @@ margin-left: 1.2rem;
   margin-bottom: 3rem;
   border-top: 1px solid grey;
   width: 70%;
-}
-
-.fondAnnexe {
-  background-color: white;
-  box-shadow: 0 0 10px lightgrey;
-  /*padding: 1.5rem;*/
+  margin-left: 0;
 }
 
 .card {
@@ -491,95 +500,220 @@ margin-left: 1.2rem;
 
 }
 
-.bloc4 {
-  margin-bottom: 2rem;
-  margin-left: 5rem;
-}
+.bloc5 {
+   box-shadow: 0 0 10px lightgrey;
 
-.rounded-pill{
-  margin-top: -7rem;
 }
 
 
-.navAside {
-  list-style-type: none;
-  margin-left: -2.5rem;
-}
 
-.titresVignettes {
-  margin-top: -90px;
+
+figcaption {
+  color: black;
   position: relative;
 }
 
-.dontMove {
-  position: sticky;
-  position: -webkit-sticky;
-  top: 5.5rem;
-  background-color: white;
-  padding-top: 1.5rem;
+.navAside {
+  list-style-type: none;
+  margin-left: -30px;
+
+}
+
+.titresVignettes {
+  margin-top: -65px;
 }
 
 
+.bloc4 {
+  margin-bottom: 2rem;
+  margin-left: 5rem;
+  background-color: white;
+}
+.bloc5 {
+  margin-left: 1rem;
+margin-right: 5rem;
+position: sticky;
+  position: -webkit-sticky;
+top: 5.5rem;
+margin-bottom: 2rem;
+background-color: white;
+}
 
-/*.photo-brightness img {
-filter: brightness(50%);
--webkit-filter: brightness(50%);
-}*/
-/*.photo-brightness img:hover {
-filter: brightness(100%);
--webkit-filter: brightness(100%);
-}*/
+
+/*
+.rounded-pill{
+
+margin-left: 27px;
+margin-bottom: 1rem; 
+
+}
 
 .photo-brightness a {
 filter: brightness(50%);
 -webkit-filter: brightness(50%);
 }
-
 .photo-brightness a:hover {
 filter: brightness(100%);
 -webkit-filter: brightness(100%);
 }
 
-.titresVignettes:hover {
+
+.bloc4 {
+  margin-bottom: 2rem;
+  margin-left: 5rem;
+  background-color: white;
+}
+.bloc5 {
+  margin-left: 1rem;
+margin-right: 5rem;
+position: sticky;
+  position: -webkit-sticky;
+top: 5.5rem;
+margin-bottom: 2rem;
+background-color: white;
+}
+
+.titreh4 {
+  position: absolute;
   color: white;
+
+  margin-top: -55px;
+  margin-left: 90px;
+}
+
+figcaption {
+    color: white;
+  text-align: center;
+  margin-top: -3rem;
+  text-decoration: none;
+  font-weight: bold;
+position: relative;
+
+}
+
+
+figcaption:hover{
+  color: red;
+}
+
+
+.titrevignet:link{
+text-decoration: none;
+
+}
+/*---- tests----*/
+.products {
+  width: 300px;
+  margin-left: 40px;
+  position: relative;
+  margin-top: 35px;
+
+}
+
+.products:first-child {
+  margin-top: 45px;
+  
+}
+
+.products:last-child {
+  margin-bottom: 20px;
+  
+}
+
+.products div {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  text-align: center;
+  margin-right: 30px;
+  margin-bottom: -5px;
+} 
+
+
+.products div h4{
+  color: #fff;
+  margin: 0;
+  font-size: 16px;
+  margin-bottom: 12px;
+  left: 0;
+  right: 0;
+}
+
+.products img {
+  vertical-align: bottom;
+ 
+}
+
+.rounded-pill{
+  margin-top: -3rem;
+  /*z-index: 1000;*/
+}
+
+.products img {
+  filter: brightness(0.5);
+-webkit-filter: brightness(0.5);
+}
+
+.products:hover {
+  filter: brightness(1);
+  -webkit-filter: brightness(1);
+}
+
+.products:hover h4 {
+  color: red;
+}
+
+.products:hover img {
+border: 1px solid black;
 }
 
 
 
+/***********************   MODALS   **************************/
 
-
-
-
-
-
-
-
-
-
-
-
-.products a {
-filter: brightness(50%);
--webkit-filter: brightness(50%);
+.modalOne .modal--close {
+    color: teal;
+    float: right;
+    font-size: 1.5em;
+    margin-right: 1rem;
+    text-decoration: none;
+    transition: .2s;
 }
 
-.products a:hover {
-filter: brightness(100%);
--webkit-filter: brightness(100%);
+.modalOne {
+    background: transparent;
+    border: 0;
+    bottom: 0;
+    display: table;
+    left: 0;
+    opacity: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    width: 60%;
+    position: fixed;
 }
 
-
-
-
-
-.titresVignettes:hover {
-  color: orange;
+.modalOne:target {
+    outline: 0;
+    opacity: 1;
+    z-index: 3;
 }
 
+.modalOne:target #modal--content {
+    margin-top: 5rem;
+}
 
-
-
-
+.modalOne #modal--content {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .6);
+    padding: 5px;
+}
 
 
 

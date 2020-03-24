@@ -4,11 +4,10 @@
 	<meta charset="utf-8">
 	<title>Voyage</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="stylesheet" type="text/css" href="../css/style.css">	
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Bellota+Text|Gruppo|Montserrat|Open+Sans+Condensed:300|Poiret+One|Rajdhani|Raleway&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+	<link rel="stylesheet" type="text/css" href="../css/style2.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+  	<link href="https://fonts.googleapis.com/css?family=Baloo+Chettan+2&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 
 	<body style= "background-color: #f0f0f0">
@@ -42,38 +41,111 @@
 			</a>
  		</header>
 
-		
 		<main>
 		  	<div class="container-fluid">
 		    	<div class="row">
-	     		    <div class="col-md-6 offset-md-1">
-		            <article class="fondAnnexe">	
-		            	<h1 class="text-md-center">Les plus beaux endroits d'Europe</h1>
+	     		    <div class="col-md-8">
+		            <div class="bloc4">
+		            	<h2 class="text-md-center" id="h2main">Les plus beaux endroits d'Europe</h2>		            	
+					       	<hr size="1" width="50%" color="black">
 					        <div class="card">
-					          	<img class="imagesArticles" src="../images/feroe.jpg" alt="Îles Féroé, Danemark" width="100%" />
-						          	<div>
-						            	<i><h3 class="text-md-left" id="titresArticles">Les Îles Féroé, Danemark</h3></i>
+					          <a class="btnOne" href="#modalFeroe">	<img class="imagesArticles" src="../images/feroe.jpg" alt="Îles Féroé, Danemark" width="100%"/></a>
+						          	<div class="card-body">
+						            		<i><h3 class="text-md-left" id="titresArticles">Les Îles Féroé, Danemark</h3></i>
 						            		<p>Les îles Féroé sont un archipel de 18 îles situé dans l’Océan Atlantique Nord. Avec 1400 km2 d’espaces parfaitement préservés, ces îles sont de véritables paradis de nature pour les photographes de paysages. Vous pourrez également y trouver quelques villages de pêcheurs et de nombreuses espèces d’oiseaux.</p>
+						          	
+						            			<!-- debuuuuut du modal---------------- -->
+													<dialog id="modalFeroe" class="modalOne" tabindex="-1">
+														<div>
+															<div id="modal--content">
+																<a href="#!" class="modal--close" title="Close this modal">x</a>
+																	<div>
+																		<h3>Les Îles Féroé, Danemark</h3>
+
+																			<img src="../images/feroe.jpg" alt="Îles Féroé, Danemark" width="100%" />
+																			      <div class="modal-footer">
+																			        <a href="#!" class="modal--close" title="Close this modal">
+																			        <button type="button" class="btn btn-info" data-dismiss="modal">Fermer</button></a>
+																			        <a href="../images/feroe.jpg" download>
+
+																			        <button type="button" class="btn btn-outline-warning">Télécharger la photo</button></a>
+																			      </div>	
+																	</div>
+															</div>
+														</div>
+													</dialog>
+												<!-- -----------  fin du modal ------------- -->
 						          	</div>
 						    </div>
 
+
 					<hr class="ligne">
-					        
-					        <div class="card">
-					          	<img class="imagesArticles" src="../images/norvege.jpg" alt="Roche de Trolltunga, Norvège" width="100%" />
+					     
+
+
+					     <div class="card">
+					          <a class="btnOne" href="#modalTrolltunga"><img class="imagesArticles" src="../images/norvege.jpg" alt="Roche de Trolltunga, Norvège" width="100%"/></a>
 						          	<div class="card-body">
-						            	<i><h3 class="text-md-left" id="titresArticles">La roche de Trolltunga, Norvège</h3></i>
-						            		<p>Situé à 700 mètres au-dessus du lac Ringedalsvatnet, Trolltunga est l’une des falaises les plus spectaculaires de Norvège. Le lieu est devenu très populaire depuis l’apparition de nombreuses photos sur Instagram. De bonnes conditions physiques sont cependant nécessaires pour s’y rendre puisque le lieu est uniquement accessible par une randonnée de 23 km avec un dénivelé de 900 mètres.</p>
+						            		<i><h3 class="text-md-left" id="titresArticles">La roche de Trolltunga, Norvège</h3></i>
+						            		<p>Les îles Féroé sont un archipel de 18 îles situé dans l’Océan Atlantique Nord. Avec 1400 km2 d’espaces parfaitement préservés, ces îles sont de véritables paradis de nature pour les photographes de paysages. Vous pourrez également y trouver quelques villages de pêcheurs et de nombreuses espèces d’oiseaux.</p>
+						          	
+						            			<!-- debuuuuut du modal---------------- -->
+													<dialog id="modalTrolltunga" class="modalOne" tabindex="-1">
+														<div>
+															<div id="modal--content">
+																<a href="#!" class="modal--close" title="Close this modal">x</a>
+																	<div>
+																		<h3>La roche de Trolltunga, Norvège</h3>
+
+																			<img src="../images/norvege.jpg" alt="Roche de Trolltunga, Norvège" width="100%" />
+																			      <div class="modal-footer">
+																			        <a href="#!" class="modal--close" title="Close this modal">
+																			        <button type="button" class="btn btn-info" data-dismiss="modal">Fermer</button></a>
+
+																			        <!-- <button type="button" class="btn btn-outline-warning"> -->
+																			        <a href="../images/norvege.jpg" target="blank"  download><i class="fas fa-file-download mr-2"></i>Download Source</a>
+																			        <!-- </button> -->
+																			      </div>	
+
+
+																	</div>
+															</div>
+														</div>
+													</dialog>
+												<!-- -----------  fin du modal ------------- -->
 						          	</div>
 						    </div>
+
 
 						<hr class="ligne">    
 
 						    <div class="card">
-					          	<img class="imagesArticles" src="../images/islande.jpg" alt="Montagne Kirkujufell, Islande" width="100%" />
+					          	<a class="btnOne" href="#modalKirkujufell"><img class="imagesArticles" src="../images/islande.jpg" alt="Montagne Kirkujufell, Islande" width="100%" /></a>
 						          	<div class="card-body">
 						            	<i><h3 class="text-md-left" id="titresArticles">La montagne Kirkujufell, Islande</h3></i>
 						            		<p>La montagne Kirkujufell est sans aucun doute le lieu le plus célèbre d’Islande. Elle est un incontournable pour tout photographe et est facilement accessible depuis la route.</p>
+
+						            		<!-- debuuuuut du modal---------------- -->
+													<dialog id="modalKirkujufell" class="modalOne" tabindex="-1">
+														<div>
+															<div id="modal--content">
+																<a href="#!" class="modal--close" title="Close this modal">x</a>
+																	<div>
+																		<h3>La montagne Kirkujufell, Islande</h3>
+
+																			<img src="../images/islande.jpg" alt="Montagne Kirkujufell, Islande" width="100%" />
+																			      <div class="modal-footer">
+																			        <a href="#!" class="modal--close" title="Close this modal">
+																			        <button type="button" class="btn btn-info" data-dismiss="modal">Fermer</button></a>
+																			        <a href="../images/islande.jpg" download>
+
+																			        <button type="button" class="btn btn-outline-warning">Télécharger la photo</button></a>
+																			      </div>	
+																	</div>
+															</div>
+														</div>
+													</dialog>
+												<!-- -----------  fin du modal ------------- -->
 						          	</div>
 						    </div>
 
@@ -152,7 +224,7 @@
 						    <div class="card">
 					          	<img class="imagesArticles" src="../images/croatie.jpg" alt="Les lacs de Plitvice, Croatie" width="100%" />
 						          	<div class="card-body">
-						            	<i><h3 class="text-md-left" id="titresArticles">Les lacs de Plitvice, Croatie</h3></i>
+						            	<i><h3 class="text-md-center" id="titresArticles">Les lacs de Plitvice, Croatie</h3></i>
 											<p> L’Algarve est une région du Portugal réputée pour son climat ensoleillé et ses eaux bleues, mais aussi pour la qualité de ses paysages et de sa nature protégée. La région est très réputée pour ses plages et ses criques ornées de sublimes falaises. </p>
 						          	</div>
 						    </div>
@@ -177,81 +249,110 @@
 						          	</div>
 						    </div>
 					</div>
+				</div>
+			      	
+     <div class="col-md-4">
+			    <div class="bloc5">
+    <aside>
+    	<h2 class="text-md-center" id="h2aside">A voir aussi...</h2>
+					<hr size="1" width="50%" color="black">
+    		<div>
+    				<article class="products">
+			   <a href="Afrique.html"><img class="rounded-pill" src="https://picsum.photos/id/1015/270/50" alt="Afrique" >
+				<div>
+					<h4>Votre équipement</h4>
+				</div>
+			</a>
+		</article>
+		<article class="products">
+			   <a href="Amerique-du-nord.html"><img class="rounded-pill" src="https://picsum.photos/id/299/270/50" alt="Amérique du Nord">
+				<div>
+					<h4>Nos tarifs</h4>
+				</div>
+			</a>
+		</article>
+		<article class="products">
+				<a href="Amerique-du-sud"><img class="rounded-pill" src="https://picsum.photos/id/256/270/50" alt="Amérique du Sud">
+				<div>
+					<h4>Réservations</h4>
+				</div>
+			</a>
+		</article>
+		<article class="products">
+				 <a href=""><img class="rounded-pill" src="https://picsum.photos/id/1067/270/50" alt="Asie">
+				<div>
+					<h4>Réservations</h4>
+				</div>
+			</a>
+		</article>
+		<article class="products">
+				<a href=""><img class="rounded-pill" src="https://picsum.photos/id/1067/270/50" alt="Océanie">
+				<div>
+					<h4>Réservations</h4>
+				</div>
+			</a>
+		</article>
 
-			      	<!-- Sidebar Widgets Column -->
-			      	<div class="col-xs-3 offset-xs-1 col-md-3 offset-md-1">
-				    	<aside class="dontMove">
-				    		<ul class="navAside">
-				    			<li class="photo-brightness">
-								        <a href="Afrique.html"><img src="https://picsum.photos/id/1015/270/50" alt="Afrique" class="rounded-pill">
-		 									<p class="titresVignettes">Afrique</p></a>
-		 						</li>
-		 						<li>
-								        <a href="Amerique-du-nord.html"><img src="https://picsum.photos/id/299/270/50" alt="Amérique du Nord" class="rounded-pill">
-		 									<p class="titresVignettes">Amérique du Nord</p></a>
-		 						</li>
-		 						<li>
-								        <a href="Amerique-du-sud"><img src="https://picsum.photos/id/256/270/50" alt="Amérique du Sud" class="rounded-pill">
-		 									<p class="titresVignettes">Amérique du Sud</p>
-		 								</a>
-		 						</li>
-		 						<li>
-							        	<a href=""><img src="https://picsum.photos/id/1067/270/50" alt="Asie" class="rounded-pill">
-	 										<p class="titresVignettes">Asie</p>
-	 									</a>
-	 							</li>
-	 						<li>
-							        	<a href=""><img src="https://picsum.photos/id/1067/270/50" alt="Océanie" class="rounded-pill">
-	 										<p class="titresVignettes">Océanie</p>
-	 									</a>
-	 						</li>
- 							</ul>
+    		</div>
 
-
-
-<figure class="photo-brightness">
-
-						        <a href="Afrique.html" class="titrevignet"><img src="https://picsum.photos/id/487/300/50" alt="nom du continent..." class="rounded-pill">
-						        <figcaption>Afrique</figcaption></a>
-						       </figure>
-
-					        <div class="card">
-					          	<h5 class="card-header">Inscrivez-vous à la newsletter</h5>
+						     <div class="card">
+					          	<h3 class="card-header">Inscrivez-vous à la newsletter</h3>
 					          		<div class="card-body">
 					            		<div class="input-group">
-					              			<input type="text" class="form-control" placeholder="Entrez votre adresse mail" />
+					              			<input type="text" class="form-control" placeholder="Entrez votre adresse mail" >
 					              				<span class="input-group-btn">
-					                				<button class="btn btn-outline-info" type="button">Go!</button>
-					              				</span>
-					            		</div>
+					                				<button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#exampleModal">Go!</button>
+													</span>
+											</div>
 					          		</div>
 					        </div>
-
 					    </aside>
+				  
 				    </div>
+				
 				</div>
 				<!-- /.row -->
 			</div>
-			<!-- /.container -->
+		</div>	<!-- /.container -->
 								
 		</main>
 
 
-		<!-- <p><a href="#">Retour haut de page</a></p> -->
-
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="btn-default" id="box-button"><a href="../images/agnes.jpg" download="agnes"><h5> Télécharger la version papier</h5></a></div>
+<a href="../images/agnes.jpg"
+   download="Article_HTML5_download.txt">Télécharger l'article en TXT</a>
 
 		 <footer class="py-4 bg-dark text-white-50">
 		    <div class="container text-center">
 		      <small>Thomas Braye - Escape &copy; 2020</small>
 		    </div>
 		  </footer>
- 
 
-		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-		<script type="text/javascript" src="css/world.js"></script>
-		<script type="text/javascript" src="css/cmap.js"></script>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 	</body>
 </html>
 
